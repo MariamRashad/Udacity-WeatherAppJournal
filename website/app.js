@@ -3,7 +3,7 @@ const base_url = "https://api.openweathermap.org/data/2.5/weather?zip=";
 const api_key = "&appid=757607da7e7c55684b4dfe20d61303e0&units=metric";
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+let newDate = 1+ d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 
 //Generate  button
 document.getElementById("generate").addEventListener("click", button);
