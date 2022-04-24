@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+  <body>
+
+<img src="weather.gif" alt="Weather" width="350px" height="360px" style="position: absolute;left: 1000px;top: 50px; border: 2px solid #302e2e; border-radius: 3px;
+"> 
+
+<div id = "app">
+  <div class ="holder headline animate__animated animate__pulse animate__delay-0.7s animate__infinite animate__slow">
+    Weather Journal App
+  </div>
+
+  <div class ="holder zip">
+    <label for="zip">Enter Zipcode here</label>
+    <input type="text" id="zip" placeholder="Enter zip code here">
+  </div>
+  <div class ="holder feel">
+    <label for="feelings">How are you feeling today?</label>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+    <button id="generate" type = "submit"> Generate </button>
+  </div>
+  <div class ="holder entry">
+    <div class = "title">Most Recent Entry</div>
+    <div id = "entryHolder">
+    <div id = "date"></div> 
+    <div id = "temp"></div>
+    <div id = "content"></div>
+    <div id = "pressure"></div>
+    <div id = "humidity"></div>
+  </div>
+  </div>
+  </div>
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>

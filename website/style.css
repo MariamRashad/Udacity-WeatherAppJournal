@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body {
+  background: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-columns:  */
+  height:100vh;
+  background: #404040;
+  color: #bfbfbf;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.holder {
+}
+
+
+.entry {
+  background: rgba(59, 74, 107, .4);
+}
+
+#img{
+
+}
+
+#entryHolder {
+}
+
+#date {
+}
+
+#temp {
+}
+
+#content {
+}
+
+#pressure{
+
+}
+
+#humidity {
+
+}
+.headline {
+  font-family: 'Eczar', serif;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 40px;
+
+}
+.title {
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 16px;
+}
+
+input{
+  display:block;
+  height: 60px;
+  width: 320px;
+  background:#b43757;
+  color: #e5e5e5;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+}
+
+button{
+  width: 300px;
+  height: 80px;
+  background: #41424c;
+  position:relative;
+  z-index:9999999;
+  color: #e5e5e5;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid #e5e5e5;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+textarea{
+  background:#b43757;
+  color: #e5e5e5;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #e5e5e5;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e5e5e5;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e5e5e5;
+  font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+  font-size: 33px;
+  background: #2f3037;
+  width: 320px;
+  height: 85px;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border: 2px solid #e5e5e5;
+  border-radius: 3px;
+}
